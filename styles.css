@@ -1,0 +1,44 @@
+body{
+    font-family: Roboto;
+
+    margin: 0;
+}
+.head{
+    margin: 0;
+    padding: 16px 100px 32px 100px;
+}
+.container,header{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin: 0;
+}
+.head,footer{
+    background-color: #1f2937;
+}
+.hmain{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hsub,a,button{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+button{
+    background-color: #3882f6;
+    padding: 10px 48px;
+}
