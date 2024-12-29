@@ -28,7 +28,7 @@ ul{
     font-weight: 900;
     margin-top: 0;
 }
-.hsub,a,.action p{
+.hsub,a,footer,.action p{
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
@@ -104,4 +104,8 @@ button{
 .cta button{
     border: 1px solid #f9faf8;
     height: fit-content;
+}
+footer{
+    text-align: center;
+    padding: 32px 0;
 }
