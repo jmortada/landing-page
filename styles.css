@@ -28,12 +28,12 @@ ul{
     font-weight: 900;
     margin-top: 0;
 }
-.hsub,a,button{
+.hsub,a,.action p{
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
 }
-.logo{
+.logo,button,.action div{
     font-size: 24px;
     color: #f9faf8;
 }
@@ -89,4 +89,19 @@ button{
 .author{
     font-weight: bold;
     text-align: end;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 5% auto;
+    max-width: 795px;
+    border-radius: 15px;
+    padding:32px 4%;
+}
+.cta button{
+    border: 1px solid #f9faf8;
+    height: fit-content;
 }
